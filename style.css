@@ -1,0 +1,17 @@
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+@keyframes float {
+    0% { transform: translate(0, 0) scale(1); opacity: 0.4; }
+    50% { transform: translate(20px, -20px) scale(1.1); opacity: 0.6; }
+    100% { transform: translate(0, 0) scale(1); opacity: 0.4; }
+}
+
+.smoke-blob {
+    animation: float 10s ease-in-out infinite;
+}
+
+.smoke-blob-2 {
+    animation: float 15s ease-in-out infinite reverse;
+}
